@@ -31,9 +31,9 @@ appropriate file protections in place.
         Looks for a sandbox named <sandbox_name> in the application named <application_name> and promotes its latest scan
 
 If a credentials file is not created, you can export the following environment variables:
-    export VERACODE_API_KEY_ID=<YOUR_API_KEY_ID>
+    `export VERACODE_API_KEY_ID=<YOUR_API_KEY_ID>
     export VERACODE_API_KEY_SECRET=<YOUR_API_KEY_SECRET>
-    py promote-sandbox.py -a <application_name> -s <sandbox_name> [-d]
+    py promote-sandbox.py -a <application_name> -s <sandbox_name> [-d]`
 
 ## License
 
